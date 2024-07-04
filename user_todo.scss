@@ -1,0 +1,55 @@
+.todo-container{
+    
+
+    .todo-form{
+        h1{
+            align-items: center;
+            // display: inline;
+            margin :auto;
+            width:80vw;
+            padding: 2rem;
+
+            
+            
+        }
+        form{
+            width:80vw;
+            margin:auto;
+            padding: 1rem;
+
+        }
+        
+        #todo-list-container{
+            
+            margin: auto;
+
+            ul{
+
+
+                li{
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    width:80vw;
+                    margin: auto;
+
+                    .list-group-item{
+                       
+                        span{
+                            margin: 4px;
+
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+}
+
+   
+
+
+   
